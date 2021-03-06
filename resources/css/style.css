@@ -144,6 +144,9 @@ p {
     height: 250px;
     margin: 0px auto 20px auto;
 }
+.testimonial2 section {
+    margin-bottom: 50px;
+}
 .testimonial1 p, .testimonial2 p, .testimonial3 p {
     padding: 25px 0px;
     text-align: justify;
@@ -160,12 +163,12 @@ p {
     display: inline-flex;
 }
 .testimonial1 span p {
-    margin-left: -75px;
+    margin-left: -73px;
     margin-top: 18px;
 }
 .testimonial2 span p {
     margin-top: 20px;
-    margin-left: -107px;
+    margin-left: -103px;
 }
 .testimonial3 span p {
     margin-top: 19.5px;
