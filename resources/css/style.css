@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: Open Sans;
-    src: url(./resources/css/OpenSans-Regular.ttf);
+    src: url(/resources/css/OpenSans-Regular.ttf);
 }
 body {
     background: hsl(217, 28%, 15%);
-    background-image: url(resources/css/images/bg-curvy-mobile.svg);
+    background-image: url(./resources/css/images/bg-curvy-mobile.svg);
     background-repeat: no-repeat;
     background-position: center 14.2%;
     background-size: 120%;
@@ -163,12 +163,12 @@ p {
     display: inline-flex;
 }
 .testimonial1 span p {
-    margin-left: -73px;
+    margin-left: -70px;
     margin-top: 18px;
 }
 .testimonial2 span p {
     margin-top: 20px;
-    margin-left: -103px;
+    margin-left: -100px;
 }
 .testimonial3 span p {
     margin-top: 19.5px;
