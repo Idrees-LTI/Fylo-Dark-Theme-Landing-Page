@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: Open Sans;
-    src: url(resources/css/OpenSans-Regular.ttf);
+    src: url(../resources/css/OpenSans-Regular.ttf);
 }
 body {
     background: hsl(217, 28%, 15%);
