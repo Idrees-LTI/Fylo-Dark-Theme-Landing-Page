@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: Open Sans;
-    src: url(/resources/css/OpenSans-Regular.ttf);
+    src: url(resources/css/OpenSans-Regular.ttf);
 }
 body {
     background: hsl(217, 28%, 15%);
-    background-image: url(/resources/css/images/bg-curvy-mobile.svg);
+    background-image: url(resources/css/images/bg-curvy-mobile.svg);
     background-repeat: no-repeat;
     background-position: center 14.2%;
     background-size: 120%;
@@ -129,7 +129,7 @@ p {
 .testimonials {
     width: 100%;
     background-color:  hsl(218, 28%, 13%);
-    background-image: url(/resources/css/images/bg-quotes.png);
+    background-image: url(resources/css/images/bg-quotes.png);
     background-repeat: no-repeat;
     height: 800px;
     flex-wrap: wrap;
