@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Open Sans;
+    src: url(/resources/css/OpenSans-Regular.ttf);
+}
+body {
+    background: hsl(217, 28%, 15%);
+    background-image: url(/resources/css/images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center 14.2%;
+    background-size: 120%;
+    font-family: open Sans;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#container {
+    width: 100%;
+}
+nav {
+    padding: 30px;
+    width: 90%;
+    height: 40px;
+}
+ .menu li {
+    list-style: none;
+    margin: 0 5px;
+    display: inline-flex;
+    line-height: 40px;
+}
+.menu li a {
+    color: rgba(238, 238, 238, 0.699);
+    text-decoration: none;
+    font-size: 14px;
+}
+.menu li a:hover {
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+.menu-item {
+    float: right;
+    padding-right: 20px;
+}
+.pioneer {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+    padding: 20px 60px 20px 70px;
+    
+}
+.illustration-intro {
+    max-width: 100%;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+}
+p {
+    max-width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 10px 50px 0px 50px;
+    background-color: hsl(218, 28%, 13%);
+}
+.btn {
+    background-color: hsl(218, 28%, 13%);
+    text-align: center;
+    width: 100%;
+}
+.get-started {
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    border-radius: 30px;
+    margin:20px auto 70px auto;
+    cursor: pointer;
+    border: none;
+}
+.get-started:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+.second-section {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color:  hsl(218, 28%, 13%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second-section h3 {
+    width: 90%;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.second-section p {
+    text-align: left;
+    margin-bottom: 50px;
+}
+.stay-productive {
+    width: 80%
+}
+.fylo {
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+    cursor: pointer;
+    padding-bottom: 120px;
+}
+.fylo:hover {
+    color: hsl(0, 0%, 100%);
+}
+.testimonials {
+    width: 100%;
+    background-color:  hsl(218, 28%, 13%);
+    background-image: url(/resources/css/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.testimonial1 section, .testimonial2 section, .testimonial3 section {
+    background-color:  hsl(219, 30%, 18%);
+    border-radius: 10px;
+    width: 80%;
+    height: 225px;
+    margin: 0px auto 20px auto;
+}
+.testimonial1 p, .testimonial2 p, .testimonial3 p {
+    padding: 25px 0px;
+    text-align: justify;
+    background-color:  hsl(219, 30%, 18%);
+}
+.testimonial1 img, .testimonial2 img, .testimonial3 img {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-left: 30px;
+    margin-right: 5px
+}
+.testimonial1 span, .testimonial2 span, .testimonial3 span {
+    display: inline-flex;
+}
+.testimonial1 span p {
+    margin-left: -85px;
+    margin-top: 18px;
+}
+.testimonial2 span p {
+    margin-top: 20px;
+    margin-left: -117px;
+}
+.testimonial3 span p {
+    margin-top: 19.5px;
+    margin-left: -65px;
+}
+.testimonial3 {
+    margin-top: -270px;
+}
+.testimonial1 span h4, .testimonial2 span h4, .testimonial3 span h4 {
+    color: white;
+}
+.boxed {
+   background-color: hsl(217, 28%, 15%);
+    border-radius: 10px;
+    width: 80%;
+    height: 230px;
+    margin: 650px auto 20px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    left: 10%;
+    position: absolute;
+}
+.boxed h3 {
+    color: white;
+    text-align: center;
+}
+.boxed p {
+    background-color: hsl(217, 28%, 15%);
+    margin-bottom: 20px;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxed input {
+    width: 80%;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 10%;
+    height: 30px;
+}
+.boxed .email {
+    text-align: left;
+}
+.subscribe {
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    width: 80%;
+    border-radius: 30px;
+    margin:20px auto 70px 10%;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+}
+.subscribe:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+footer {
+    padding: 200px 30px 0px 30px;
+    background-color: hsl(216, 53%, 9%);
+    width: 100%
+}
+
+footer .logo {
+    margin-bottom: 20px;
+    
+}
+footer #location p, footer #phone p {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: hsl(216, 53%, 9%);
+    text-align: left;
+    color:rgba(238, 238, 238, 0.699);
+}
+footer .email {
+    padding-bottom: 30px;
+}
+footer .email a, footer .mobile a {
+    color:rgba(238, 238, 238, 0.699);
+    text-decoration: none;
+}
+footer .mobile a:hover {
+    color: white;
+}
+footer .email a:hover {
+    color: white;
+}
+footer .footer-list1 li, footer .footer-list2 li, footer .footer-list3 li {
+    list-style: none;
+    
+}
+footer .footer-list1 li a, footer .footer-list2 li a, footer .footer-list3 li a {
+    color: rgba(238, 238, 238, 0.699);
+    text-decoration: none;
+    font-size: 16px;
+}
+footer .footer-list1 li a:hover {
+    color: white;
+}
+footer .footer-list2 li a:hover {
+    color: white;
+}
+.footer-list2 {
+    margin-bottom: 30px;
+}
+footer .footer-list3  {
+    display: inline-flex;
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+footer .footer-list3 li {
+    margin-right: 10px;
+}
+footer .footer-list3 li a i{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px;
+}
+footer .footer-list3 li a i:hover {
+    color: hsl(176, 68%, 64%);
+}
+.by, .by a {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+}
+.by a:hover {
+    text-decoration: underline;
+    color: white;
+}
+/*Responsiveness*/
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(/resources/css/images/bg-curvy-desktop.svg);
+        background-position: center 25%;
+        width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .intro {
+        margin-bottom: 200x;
+    }
+    .illustration-intro {
+        padding-top: -200px;
+    }
+    h2 {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+     .pioneer p {
+         text-align: center;
+         margin-left: 500px;
+         margin-right: 500px;
+    }
+    .get-started {
+        width: 30%;
+    }
+    .second-section .part1, .second-section .part2, .second-section .part3, .second-section .part4, .second-section .part4, .desc{
+        width: 50%;
+    }
+    .second-section p {
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: center;
+    }
+     .desc .fylo {
+        padding-bottom: 0px;
+        text-align: left   ;
+    }
+    .testimonials {
+        padding-top: 50px;
+        width: 100%;
+        height: 260px;
+        padding-bottom: 0px;
+    }
+    .testimonial1 {
+        width: 35%;
+    }
+    .testimonial2 {
+        margin-top: -305px;
+        width: 35%;
+        margin-left: 475px;
+    }
+    .testimonial3 {
+        margin-top: -435px;
+        width: 35%;
+        margin-left: 950px;
+    }
+    .boxed {
+        margin-top: 120px;
+        width: 70%;
+        text-align: center;
+        left: 15%;
+        height: 200px;
+    }
+    .boxed h3 {
+        margin-top: 20px;
+    }
+    .boxed p {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .boxed input {
+        width: 50%;
+        height: 40px;
+    margin-top: 20px;
+    }
+    .subscribe {
+        width: 30%;
+        margin-left: auto;
+        height: 40px;
+    }
+    footer, .final-part {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer #logo {
+        width: 30%;
+        height: 100px;
+    }
+    footer #location  {
+        width: 100%;
+    }
+    section #phone .phone, section #phone email, section #phone img {
+        width: 35%;
+    }
+    footer .footer-list1 {
+        width: 15%;
+    }
+        footer .footer-list2 {
+            width: 15%;
+        }
+        footer .footer-list3 {
+            width: 5%;
+            margin-left: 0%;
+        }
+    }
+}
+
