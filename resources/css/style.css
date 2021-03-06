@@ -13,6 +13,7 @@ body {
     background-position: center 14.2%;
     background-size: 120%;
     font-family: Open Sans;
+    font-size: 14px;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
