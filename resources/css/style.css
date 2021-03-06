@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     background-position: center 14.2%;
     background-size: 120%;
-    font-family: open Sans;
+    font-family: Open Sans;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -298,7 +298,7 @@ footer .footer-list3 li a i:hover {
 /*Responsiveness*/
 @media screen and (min-width: 1440px) {
     body {
-        background-image: url(/resources/css/images/bg-curvy-desktop.svg);
+        background-image: url(resources/css/images/bg-curvy-desktop.svg);
         background-position: center 25%;
         width: 1500px;
         margin-left: auto;
